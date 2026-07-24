@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CoCo's Pastry Portfolio</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background-color: #fffaf2;
+      color: #24352d;
+      text-align: center;
+    }
+
+    header {
+      min-height: 75vh;
+      padding: 100px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      background:
+        linear-gradient(
+          rgba(19, 68, 49, 0.92),
+          rgba(42, 103, 75, 0.88)
+        );
+      
+      color: white;
+    }
+
+    h1 {
+      margin: 0 0 15px;
+      font-size: clamp(2.5rem, 7vw, 5rem);
+      letter-spacing: 2px;
+    }
+
+    header p {
+      max-width: 650px;
+      margin: 0;
+      font-size: 1.25rem;
+      line-height: 1.7;
+      color: #f8edcf;
+    }
+
+    section {
+      padding: 70px 20px;
+    }
+
+    section:nth-of-type(even) {
+      background-color: #edf4ee;
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #174c35;
+      font-size: 2.2rem;
+    }
+
+    section p {
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.8;
+      font-size: 1.05rem;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 28px;
+
+      background-color: #d8b45a;
+      color: #173a2b;
+
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 30px;
+      border: 2px solid #f5df9b;
+
+      transition: transform 0.2s ease,
+                  background-color 0.2s ease;
+    }
+
+    .button:hover {
+      background-color: #f0d487;
+      transform: translateY(-3px);
+    }
+
+    .gallery-placeholder {
+      max-width: 900px;
+      margin: 35px auto 0;
+      padding: 60px 25px;
+
+      background-color: white;
+      border: 2px dashed #8cac98;
+      border-radius: 18px;
+      color: #527060;
+    }
+
+    footer {
+      padding: 30px 20px;
+      background-color: #102f22;
+      color: #f6ebcf;
+    }
+
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>CoCo's Pastry Creations</h1>
+
+    <p>
+      Custom cakes, pastries, and edible works of art,
+      crafted with imagination, elegance, and care.
+    </p>
+
+    <a class="button" href="#gallery">
+      View the Gallery
+    </a>
+  </header>
+
+  <section id="gallery">
+    <h2>Featured Creations</h2>
+
+    <p>
+      Explore a collection of handcrafted cakes,
+      pastries, desserts, and celebration creations.
+    </p>
+
+    <div class="gallery-placeholder">
+      CoCo's pastry photographs will appear here soon.
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About the Baker</h2>
+
+    <p>
+      Every creation is carefully designed with imagination,
+      artistry, and attention to detail. From memorable
+      celebrations to custom edible creations, CoCo transforms
+      every dessert into something truly special.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Custom Orders</h2>
+
+    <p>
+      Custom-order information, social-media links,
+      and contact options will be available soon.
+    </p>
+
+    <a class="button" href="mailto:example@email.com">
+      Request an Order
+    </a>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 CoCo's Pastry Creations</p>
+  </footer>
+
+</body>
+</html>
