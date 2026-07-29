@@ -1,2 +1,2 @@
-# coco-pastry-portfolio
-A portfolio website showcasing Coco's custom cakes, pastries, and edible creations.
+# HASHTAGSCRUMPTIOUS LLC
+A ordering website showcasing custom edible pastries cakes, pastries, and edible creations.
